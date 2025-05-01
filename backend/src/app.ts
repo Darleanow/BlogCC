@@ -19,9 +19,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/articles", articlesRoutes);
-app.use('/api/categories', categoriesRoutes);
-app.use('/api/comments', commentsRoutes);
-app.use('/api/tags', tagsRoutes);
+app.use("/api/categories", categoriesRoutes);
+app.use("/api/comments", commentsRoutes);
+app.use("/api/tags", tagsRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/images", imagesRoutes);
